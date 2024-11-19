@@ -1,0 +1,7 @@
+yarn install
+
+npx tsx src/register-scheme.ts
+
+npx tsx src/create-wallet-document.ts
+
+npx tsx src/add-score-to-wallet
