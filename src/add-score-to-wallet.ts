@@ -1,6 +1,6 @@
 import { addScoreToWallet, getWalletScores } from './services/scoreService';
 
-const documentId = '';
+const documentId = ''; // TODO: add document id
 
 (async () => {
     const newScore = {

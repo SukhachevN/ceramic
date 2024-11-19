@@ -14,8 +14,7 @@ type WalletScores = {
     scores: ScoreRecord[];
 };
 
-const schemaId =
-    'k3y52l7qbv1frxqu8u67dj4pcrlz66ypx0smghj46optvx4e94lhs9t0e3i4zy680';
+const schemaId = ''; // TODO: add schema id
 
 export const registerSchema = async () => {
     await authenticateCeramic();
